@@ -25,6 +25,10 @@
     align-content: left;
 }
 
+.dropdown-item:active {
+    background-color: gray;
+}
+
 .icone-evenement {
     width: 18px;
 }
