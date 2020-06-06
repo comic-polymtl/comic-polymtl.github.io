@@ -7,17 +7,7 @@
 /* Navbar */
 #logoNavbar {
     height: 32px;
-    padding-left: 1rem;
-}
-
-.navbar {
-    padding-left: 0;
-}
-
-.navbar-expand-sm {
-    padding-left: 0;
-    padding-bottom: 0;
-    padding-top: 0;
+    /*padding-left: 1rem;*/
 }
 
 .nav-container {
@@ -25,16 +15,6 @@
     padding-left: 0;
 }
 
-.nav-item {
-    height: 100%;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.container-fluid {
-  padding: 30px 10px 30px 10px;
-}
-
-.nav-item.active {
+.navbar {
     background-color: #171717;
 }
