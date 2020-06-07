@@ -85,16 +85,19 @@
 .boite {
     padding-left:   10px;
     padding-right:  10px;
-    padding-bottom: 10px;
+    /* Marge du bas 2x plus grande pour que l'espace entre les boîtes
+    reste le même horizontalement et verticalement quand elles sont
+    les unes au-dessus des autres dans les petites fenêtres */
+    padding-bottom: 20px;
 }
 
 .encadré {
-    border: 1px #ccc solid;
-    padding: 50px;
-    text-align: center;
-    /*margin: -5px;*/
-    /*height: 300px;*/
-    /*margin-bottom: 25px;*/
+    border:         1px #ccc solid;
+    padding-top:    50px;
+    padding-bottom: 50px;
+    padding-left:   20px;
+    padding-right:  20px;
+    align-content:  center;
 }
 
 .encadré:hover {
@@ -106,11 +109,12 @@
     text-decoration: none;
 }
 
+.encadré div {
+    padding-left:   10px;
+    padding-right:  10px;
+}
+
 .encadré img {
-    width: 200px;
     max-width: 200px;
-    min-width: 100%;
     padding-bottom: 1rem;
-    /*width: 100%;*/
-    /*max-width: 200px;*/
 }
