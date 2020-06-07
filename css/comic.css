@@ -132,6 +132,19 @@
 }
 
 /* Bas-de-page */
+footer {
+    background-color: #202020;
+}
 footer p {
     color: white;
+}
+
+#courriel {
+    text-decoration: none;
+}
+
+.réseau-social {
+    font-size: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
