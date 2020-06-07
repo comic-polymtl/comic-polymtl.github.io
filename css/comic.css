@@ -58,6 +58,10 @@
     background-color: lightgray;
 }
 
+#vidéo .container-fluid {
+    padding: 0;
+}
+
 #vidéo .row {
     padding-top:    2rem;
     padding-bottom: 2rem;
@@ -65,10 +69,18 @@
     padding-right:  2rem;
 }
 
+#lecteur-vidéo {
+    max-width: 800px;
+    margin: auto;
+}
+
 #vidéo video {
-    /*width:      100%;*/
-    height:     100%;
-    max-width:  720px;
+    width: 100%;
+    /* Sans cette ligne, ça plante sur Safari 13.1.1
+    source: https://stackoverflow.com/questions/16079275/
+    html5-video-dimensions-in-safari-ios
+    [Réponse de Joel Karunungan] */
+    height: 100%;
 }
 
 #services .row {
@@ -117,4 +129,9 @@
 .encadré img {
     max-width: 200px;
     padding-bottom: 1rem;
+}
+
+/* Bas-de-page */
+footer p {
+    color: white;
 }
