@@ -37,3 +37,12 @@
 #logo {
     width: 250px;
 }
+
+#vidéo {
+    background-color: lightgray;
+}
+
+#lecteur-vidéo {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
