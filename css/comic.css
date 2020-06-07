@@ -46,3 +46,8 @@
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
+
+#vidéo video {
+    width: 100%;
+    max-width: 720px;
+}
