@@ -34,6 +34,16 @@
 }
 
 /* Corps */
+body section {
+    font-family: "Arial";
+}
+
+section {
+    /* Purement cosmétique, désactiver au besoin */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 #logo {
     width: 250px;
 }
