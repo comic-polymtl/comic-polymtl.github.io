@@ -221,3 +221,7 @@ footer p {
 #fish img {
     width: 100%;
 }
+
+#exemple-carrousel {
+    max-width: 700px;
+}
