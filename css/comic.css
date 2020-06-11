@@ -186,7 +186,7 @@ footer p {
     color: white;
 }
 
-.lien-cliquable {
+a.lien-cliquable {
     text-decoration: none;
 }
 
