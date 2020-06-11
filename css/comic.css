@@ -25,6 +25,225 @@
     align-content: left;
 }
 
+.dropdown-item:active {
+    background-color: gray;
+}
+
 .icone-evenement {
     width: 18px;
+}
+
+/* En-tête de page */
+#en-tête-page {
+    background-color: #F3F3F3;
+}
+
+#en-tête-page img {
+    height: 50px;
+}
+
+/* Sections */
+section {
+    font-family: "Arial";
+    padding-top:    2rem; /* Peut rétrécir cet espace si ça plus le
+                             padding du section-heading crée trop d'espace
+                             vide au haut des section */
+    padding-bottom: 2rem;
+    padding-left:   30px;
+    padding-right:  30px;
+}
+
+.section-paire {
+    background-color: #eeeeee;
+}
+
+.section-impaire {
+    background-color: white;
+}
+
+.section-heading {
+    margin: 0;
+    padding-top:    1rem;
+    padding-bottom: 1rem;
+}
+
+#en-tête {
+    padding-top:    2rem;
+    padding-bottom: 2rem;
+}
+
+/* Sections vidéos */
+.section-vidéo .container-fluid {
+    padding: 0;
+}
+
+.section-vidéo .row {
+    padding-top:    2rem;
+    padding-bottom: 2rem;
+    padding-left:   2rem;
+    padding-right:  2rem;
+
+    margin:     auto;
+}
+
+.section-vidéo video {
+    width: 100%;
+    /* Sans cette ligne, ça plante sur Safari 13.1.1
+    source: https://stackoverflow.com/questions/16079275/
+    html5-video-dimensions-in-safari-ios
+    [Réponse de Joel Karunungan] */
+    height: 100%;
+}
+
+.légende {
+    font-style: italic;
+    margin: 5px;
+}
+
+/* Grilles de portraits */
+.section-portraits {
+    padding-left:  -20px;
+    padding-right: -20px;
+}
+
+.portrait {
+    width:  150px;
+    /* TODO: arrondir les coins */
+}
+
+.card {
+    margin: 10px;
+    max-width: 700px;
+    /* Ça devrait être assez large pour faire rentrer
+    n'importe quel couple "Pseudo | MonRôle" */
+    width: 450px; */
+}
+
+.card .portrait {
+    margin: 10px;
+}
+
+.card .portrait img {
+    width:  150px;
+    height: 150px;
+    border-radius: 50%; /* photos dans un cercle */
+}
+
+.card .card-body {
+    padding-top:    10px;
+    padding-bottom: 10px;
+    padding-left:   10px;
+    padding-right:  10px;
+}
+
+.card-title .pseudo {
+    font-weight: bold;
+}
+
+.card-title .rôle {
+    color: grey;
+}
+
+/* Encadrés */
+.boite {
+    padding: 10px;
+}
+
+.encadré {
+    border:         1px #ccc solid;
+    padding-top:    50px;
+    padding-bottom: 50px;
+    padding-left:   20px;
+    padding-right:  20px;
+    align-content:  center;
+}
+
+.encadré:hover {
+    background-color: lightgrey;
+}
+
+.encadré a {
+    color: black;
+    text-decoration: none;
+}
+
+.encadré div {
+    padding-left:   10px;
+    padding-right:  10px;
+}
+
+.encadré img {
+    max-width: 200px;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+/* Bas-de-page */
+footer {
+    background-color: #202020;
+}
+footer p {
+    color: white;
+}
+
+a.lien-cliquable {
+    text-decoration: none;
+}
+
+.réseau-social {
+    font-size:      30px;
+    padding-left:   3px;
+    padding-right:  3px;
+}
+
+/* Insérer ci-dessous le CSS spécifique à une page */
+
+/* Spécifique à index.html (Accueil) */
+#grand-logo {
+    width: 250px;
+}
+
+#a-propos {
+    padding-top:    2rem;
+    padding-bottom: 2rem;
+}
+
+#services .section-heading {
+    padding-top:    2rem;
+    padding-bottom: 2rem;
+}
+
+/* Spécifique à gabarit.html */
+#fish {
+    max-width: 600px;
+}
+
+#fish img {
+    width: 100%;
+}
+
+#exemple-carrousel {
+    max-width: 700px;
+}
+
+#exemple-arbre-tournoi {
+    max-width: 700px;
+}
+
+/* Spécifique à contact.html */
+#contact .section-heading {
+    font-size: 2rem;
+}
+
+#contact .fa,.fab {
+    width: 30px;
+}
+
+#contact #widget-discord {
+    max-width: 450px;
+}
+
+/* Spécifique à réparons-poly.html */
+.btn-success a {
+    color: white;
 }

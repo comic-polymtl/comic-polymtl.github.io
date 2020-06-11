@@ -51,19 +51,20 @@ implicite. -->
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
 
-          <li class="nav-item active"><a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Le Comité</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Chronologie</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item active"><a class="nav-link text-nowrap" href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link text-nowrap" href="le-comité.html">Le Comité</a></li>
+          <li class="nav-item"><a class="nav-link text-nowrap" href="chronologie.html">Chronologie</a></li>
+          <li class="nav-item"><a class="nav-link text-nowrap" href="s-impliquer.html">S'impliquer</a></li>
+          <li class="nav-item"><a class="nav-link text-nowrap" href="contact.html">Contact</a></li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Services
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#"><i class="fa fa-trophy icone-evenement"></i> Polybash</a>
-              <a class="dropdown-item" href="#"><i class="fa fa-hammer icone-evenement"></i> BuildQuest</a>
-              <a class="dropdown-item" href="#"><i class="fa fa-wrench icone-evenement"></i>  Réparons-Poly</a>
+              <a class="dropdown-item" href="polybash.html"><i class="fa fa-trophy icone-evenement"></i> Polybash</a>
+              <a class="dropdown-item" href="buildquest.html"><i class="fa fa-hammer icone-evenement"></i> BuildQuest</a>
+              <a class="dropdown-item" href="réparons-poly.html"><i class="fa fa-wrench icone-evenement"></i> Réparons-Poly</a>
             </div>
           </li>
 
@@ -72,96 +73,90 @@ implicite. -->
     </div>
   </nav>
 
-  <!-- Header -->
-  <header class="bg-primary py-5 mb-5">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-lg-12">
-          <h1 class="display-4 text-white mt-5 mb-2">Business Name or Tagline</h1>
-          <p class="lead mb-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam.</p>
-        </div>
-      </div>
-    </div>
+  <!-- Image en fond avec le logo Comic-inside en gros -->
+  <header id="en-tête" class="bg-primary">
+    <!-- TODO: Rajouter une image en fond -->
+    <!-- TODO: Rendre le logo plus beau   -->
+    <h1 class="section-heading text-center">
+      <img src="ressources/logo_comic.png" alt="Logo Comic" id="grand-logo">
+    </h1>
   </header>
 
   <!-- Contenu -->
-  <div class="container">
-
-    <div class="row">
-      <div class="col-md-8 mb-5">
-        <h2>What We Do</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-        <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
-      </div>
-      <div class="col-md-4 mb-5">
-        <h2>Contact Us</h2>
-        <hr>
-        <address>
-          <strong>Start Bootstrap</strong>
-          <br>3481 Melrose Place
-          <br>Beverly Hills, CA 90210
-          <br>
-        </address>
-        <address>
-          <abbr title="Phone">P:</abbr>
-          (123) 456-7890
-          <br>
-          <abbr title="Email">E:</abbr>
-          <a href="mailto:#">name@example.com</a>
-        </address>
+  <section id="a-propos">
+    <div class="container-fluid text-center">
+      <h3 class="section-heading">QU'EST-CE QUE LE COMIC?</h3>
+      <div class="row justify-content-center">
+        <div class="col-8">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis harum rem excepturi eius. Officia itaque ducimus dolore nisi eum necessitatibus quae, quam repudiandae, temporibus debitis quia quibusdam, enim dolorem optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ad, et, ratione corporis doloribus perferendis soluta error alias natus eligendi rerum iure illo, quisquam, earum aperiam sapiente odio recusandae? Quo.</p>
+        </div>
       </div>
     </div>
-    <!-- /.row -->
+  </section>
 
-    <div class="row">
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+  <section class="section-vidéo section-paire">
+    <div class="container-fluid text-center">
+      <div class="row justify-content-center" style="max-width: 800px;">
+        <video controls>
+          <source src="ressources/présentation-pinep-2018-2019.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <!-- TODO: Ajouter des imagettes et des texte descriptifs de nos différents services -->
+    <div class="container-fluid text-center">
+      <h3 class="section-heading">SERVICES</h3>
+      <div class="row justify-content-center">
+        <div class="boite col-md-4">
+          <div class="encadré">
+            <a href="#">
+              <img src="ressources/réparons-poly.png" alt="Logo Réparons-Poly"><br>
+              <div>
+                Texte explicatif. Court texte explicatif remplissage de la ligne temporaire. Encore plus de remplissage on dirait un journal télévisé.
+              </div>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+        <div class="boite col-md-4">
+          <div class="encadré">
+            <a href="#">
+              <img src="ressources/réparons-poly.png" alt="Logo Réparons-Poly"><br>
+              <div>
+                Texte explicatif. Court texte explicatif remplissage de la ligne temporaire. Encore plus de remplissage on dirait un journal télévisé.
+              </div>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+        <div class="boite col-md-4">
+          <div class="encadré">
+            <a href="#">
+              <img src="ressources/réparons-poly.png" alt="Logo Réparons-Poly"><br>
+              <div>
+                Texte explicatif. Court texte explicatif remplissage de la ligne temporaire. Encore plus de remplissage on dirait un journal télévisé.
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
     <!-- /.row -->
+  </section>
 
-  </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">&copy; Comic 2020</p>
+  <!-- Bas-de-page -->
+  <footer class="py-5">
+    <div class="container text-center">
+      <h5><b><p>COMIC</p></b></h5>
+      <p>Local C215.02 (Pavillon Principal)
+        <br>École Polytechnique de Montréal
+        <br><a class="lien-cliquable" href="mailto:comic@nova.polymtl.ca">comic@nova.polymtl.ca</a>
+        <br><a class="réseau-social" href="https://www.facebook.com/lecomicpolymtl/"><i class="fab fa-facebook-square"></i></a>
+        <a class="réseau-social" href="https://m.me/lecomicpolymtl"><i class="fab fa-facebook-messenger"></i></a>
+        <!-- NOTE: Le lien d'invitation vers le Discord du Polybash est lié
+        au compte personnel de Rétro. Créer un nouveau lien d'invitation --à date d'expiration illimitée-- quand ce sera approprié. -->
+        <a class="réseau-social" href="https://discord.gg/EqHDKYK"><i class="fab fa-discord"></i></a></p>
+      <p>&copy; Comic 2020</p>
     </div>
     <!-- /.container -->
   </footer>
