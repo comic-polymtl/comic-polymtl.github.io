@@ -229,3 +229,12 @@ footer p {
 #exemple-arbre-tournoi {
     max-width: 700px;
 }
+
+/* Spécifique à contact.html */
+#contact .section-heading {
+    font-size: 2rem;
+}
+
+#contact .fa,.fab {
+    width: 30px;
+}
