@@ -242,3 +242,8 @@ a.lien-cliquable {
 #contact #widget-discord {
     max-width: 450px;
 }
+
+/* Spécifique à réparons-poly.html */
+.btn-success a {
+    color: white;
+}
