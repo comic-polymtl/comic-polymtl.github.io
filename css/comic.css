@@ -238,3 +238,7 @@ a.lien-cliquable {
 #contact .fa,.fab {
     width: 30px;
 }
+
+#contact #widget-discord {
+    max-width: 450px;
+}
