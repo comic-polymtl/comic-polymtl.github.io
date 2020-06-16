@@ -217,6 +217,9 @@ a.lien-cliquable {
 
 #icone-saltcup {
     transform: rotateX(180deg) rotateY(180deg);
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
 }
 
 /* Spécifique à gabarit.html */
