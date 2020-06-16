@@ -31,6 +31,7 @@
 
 .icone-evenement {
     width: 18px;
+    height: 16px;
 }
 
 /* En-tête de page */
@@ -155,6 +156,7 @@ section {
     padding-bottom: 50px;
     padding-left:   20px;
     padding-right:  20px;
+    height:         100%;
     align-content:  center;
 }
 
@@ -211,6 +213,10 @@ a.lien-cliquable {
 #services .section-heading {
     padding-top:    2rem;
     padding-bottom: 2rem;
+}
+
+#icone-saltcup {
+    transform: rotateX(180deg) rotateY(180deg);
 }
 
 /* Spécifique à gabarit.html */
