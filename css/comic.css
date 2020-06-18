@@ -128,6 +128,7 @@ section {
     width:  150px;
     height: 150px;
     border-radius: 50%; /* photos dans un cercle */
+    object-fit: cover;
 }
 
 .card .card-body {
