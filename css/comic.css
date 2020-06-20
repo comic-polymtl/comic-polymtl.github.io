@@ -68,11 +68,6 @@ section {
     padding-bottom: 1rem;
 }
 
-#en-tête {
-    padding-top:    2rem;
-    padding-bottom: 2rem;
-}
-
 /* Sections vidéos */
 .section-vidéo .container-fluid {
     padding: 0;
@@ -203,8 +198,8 @@ a.lien-cliquable {
 /* Insérer ci-dessous le CSS spécifique à une page */
 
 /* Spécifique à index.html (Accueil) */
-#grand-logo {
-    width: 250px;
+.image-fond {
+    width: 100%;
 }
 
 #a-propos {
