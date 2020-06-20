@@ -153,10 +153,10 @@ section {
 
 .encadré {
     border:         1px #ccc solid;
-    padding-top:    50px;
-    padding-bottom: 50px;
-    padding-left:   20px;
-    padding-right:  20px;
+    padding-top:    10%;
+    padding-bottom: 10%;
+    padding-left:   10%;
+    padding-right:  10%;
     height:         100%;
     align-content:  center;
 }
@@ -176,9 +176,10 @@ section {
 }
 
 .encadré img {
-    max-width: 200px;
-    width: 100%;
+    height:         100px;
+    width:          100%;
     padding-bottom: 1rem;
+    object-fit: contain;
 }
 
 /* Bas-de-page */
@@ -221,6 +222,24 @@ a.lien-cliquable {
     display: inline-block;
     vertical-align: middle;
     height: 100%;
+}
+
+#logo-polybash {
+    /* Aligne le texte du logo au texte du logo saltcup
+    qui dépasse un peu en-dessous */
+    padding-bottom: 30px;
+}
+
+#logo-buildquest {
+    /* Aligne le texte du logo au texte du logo saltcup
+    qui dépasse un peu en-dessous */
+    padding-bottom: 30px;
+}
+
+#logo-reparons-poly {
+    /* Aligne le texte du logo au texte du logo saltcup
+    qui dépasse un peu en-dessous */
+    padding-bottom: 30px;
 }
 
 /* Spécifique à gabarit.html */
