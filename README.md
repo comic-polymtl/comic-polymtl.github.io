@@ -15,11 +15,15 @@ Le répo utilise deux branches:
 
 ## Mise en ligne
 
+Ajout des *remotes* du serveur d'hébergement (Nova):
+* `test`: `git remote add test "ssh://comic@nova.step.polymtl.ca/home/comites/interne/comic/site/site-test.git/"`
+* `prod`: `git remote add prod "ssh://comic@nova.step.polymtl.ca/home/comites/interne/comic/site/site.git/"`
+
 Pour transférer le contenu du site d'une machine en local vers le serveur du STEP:
 * `dev`: Avant de passer une modification locale en prod, celle-ci devrait être testée sur le serveur. Pour ce faire, lancer `git push test` pour déployer le site sous <http://comic.polymtl.ca/test/>, d'où il est accessible au développeur mais pas aux visiteurs.
 * `master`: `git push prod`; mise en ligne directement sous <http://comic.polymtl.ca/>.
 
-## Accès par le serveur Nova
+## Accès direct par le serveur Nova
 
 Le Comic a un accès SSH/SFTP au serveur d'hébergement: `$ ssh comic@nova.step.polymtl.ca`. La racine du site y est placée sous `nova_html/`.
 
