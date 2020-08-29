@@ -23,6 +23,8 @@ Pour transférer le contenu du site d'une machine en local vers le serveur du ST
 * `dev`: Avant de passer une modification locale en prod, celle-ci devrait être testée sur le serveur. Pour ce faire, lancer `git push test` pour déployer le site sous <http://comic.polymtl.ca/test/>, d'où il est accessible au développeur mais pas aux visiteurs.
 * `master`: `git push prod`; mise en ligne directement sous <http://comic.polymtl.ca/>.
 
+NB: Le serveur peut prendre un moment avant de réfléter tout les changemens après une mise en prod. Il a notamment tendance à refléter les changements au HTML sans prendre en compte les changements au CSS, ce qui peut faire croire à des problèmes dûs au code. Il corrige généralement ce défaut au bout d'un quart d'heure. Si le problème semble persister, vider la cache du navigateur.
+
 ## Accès direct par le serveur Nova
 
 Le Comic a un accès SSH/SFTP au serveur d'hébergement: `$ ssh comic@nova.step.polymtl.ca`. La racine du site y est placée sous `nova_html/`.
