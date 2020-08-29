@@ -177,6 +177,15 @@ section {
     object-fit: contain;
 }
 
+/* Images standard placées dans une page */
+.image-page {
+    max-width: 700px;
+}
+
+.image-page img {
+    width: 100%;
+}
+
 /* Bas-de-page */
 footer {
     background-color: #202020;
