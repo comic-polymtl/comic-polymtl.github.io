@@ -276,6 +276,23 @@ a.lien-cliquable {
     max-width: 450px;
 }
 
+/* Spécifique à buildquest.html */
+.commanditaire {
+    padding-top:    5%;
+    padding-bottom: 5%;
+    padding-left:   5%;
+    padding-right:  5%;
+    height:         100%;
+    align-content:  center;
+}
+
+.commanditaire img {
+    max-height:     200px;
+    max-width:      500px;
+    width:          100%;
+    object-fit: contain;
+}
+
 /* Spécifique à réparons-poly.html */
 .btn a {
     color: white;
